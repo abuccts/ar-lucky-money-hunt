@@ -32,8 +32,8 @@ import numpy as np
 
 def inpaint(inFile, outFile, threshold):
   img = cv2.imread(inFile)
-  gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-  mask = np.zeros(im.shape[:-1], np.uint8)
+  gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+  mask = np.zeros(img.shape[:-1], np.uint8)
   for i in range(gray.shape[0]):
     if np.cov(gray[i, :]) < threshold:
       mask[i, :] = 1
