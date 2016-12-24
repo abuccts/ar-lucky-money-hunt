@@ -1,1 +1,2 @@
-# ar-lucky-money-hunt
+AR LUCKY MONEY HUNT
+===================
