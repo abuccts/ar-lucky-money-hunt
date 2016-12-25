@@ -1,6 +1,9 @@
 AR LUCKY MONEY HUNT
 ===================
 
+[![GitHub version](https://badge.fury.io/gh/abuccts%2Far-lucky-money-hunt.svg)](https://badge.fury.io/gh/abuccts%2Far-lucky-money-hunt)
+[![GPLv2 licensed](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0-standalone.html)
+
 Image restoration for alipay ar lucky money based on inpainting algorithms.
 
 Introduction
@@ -51,7 +54,7 @@ Instructions
 Author
 ------
 
-@abuccts
+[@abuccts](https://github.com/abuccts)
 
 Contributions
 -------------
