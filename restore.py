@@ -40,8 +40,8 @@ def inpaint(inFile, outFile, threshold):
   dst = cv2.inpaint(img, mask, 3, cv2.INPAINT_TELEA)
   cv2.imwrite(outFile, dst)
 
-  
+
 if __name__ == "__main__":
   inFile, outFile = sys.argv[1], sys.argv[2]
-  threshold = int(sys.argv[3]) if len(sys.argv) > 3 else 300
+  threshold = int(sys.argv[3]) if len(sys.argv) > 3 else 600
   inpaint(inFile, outFile, threshold)
